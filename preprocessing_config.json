@@ -1,0 +1,16 @@
+{
+    "max_vocab_size": 15000,
+    "max_sequence_length": 100,
+    "embedding_dim": 128,
+    "padding_type": "post",
+    "truncating_type": "post",
+    "oov_token": "<OOV>",
+    "label_mapping": {
+        "-1": 1,
+        "0": 0
+    },
+    "classes": {
+        "0": "Non-Bullying",
+        "1": "Cyberbullying"
+    }
+}
